@@ -1,0 +1,34 @@
+{
+  "name": "lorena-functions-app",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/app": "file:/Users/lorenajinchuk/Documents/cli-functions-javascript/packages/app",
+    "@shopify/cli": "file:/Users/lorenajinchuk/Documents/cli-functions-javascript/packages/cli",
+    "@shopify/shopify_function": "0.0.3",
+    "javy": "0.0.3",
+    "javy-cli": "0.0.3"
+  },
+  "author": "lorenajinchuk",
+  "overrides": {
+    "@shopify/cli": "file:/Users/lorenajinchuk/Documents/cli-functions-javascript/packages/cli",
+    "@shopify/app": "file:/Users/lorenajinchuk/Documents/cli-functions-javascript/packages/app",
+    "@shopify/cli-kit": "file:/Users/lorenajinchuk/Documents/cli-functions-javascript/packages/cli-kit",
+    "@shopify/plugin-ngrok": "file:/Users/lorenajinchuk/Documents/cli-functions-javascript/packages/plugin-ngrok"
+  },
+  "resolutions": {
+    "@shopify/cli": "file:/Users/lorenajinchuk/Documents/cli-functions-javascript/packages/cli",
+    "@shopify/app": "file:/Users/lorenajinchuk/Documents/cli-functions-javascript/packages/app",
+    "@shopify/cli-kit": "file:/Users/lorenajinchuk/Documents/cli-functions-javascript/packages/cli-kit",
+    "@shopify/plugin-ngrok": "file:/Users/lorenajinchuk/Documents/cli-functions-javascript/packages/plugin-ngrok"
+  }
+}
